@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"><title>Corrige</title>
+<link rel="stylesheet" href="estilos.css" type="text/css">
+<!--Poner color de fondo diferente a cada zona-->
+<!--Si se está escribiendo color azulito en la caja-->
+</head>
+<body>
+	<div class="form01">
+		<form action="#" method="post" ><field>
+<!--Entradas de texto normal de solo letras-->
+
+			<legend class="tit"><b>Datos personales</b></legend>
+			<label>Nombre</label>
+				 <input type="text" name="nombre"></input><br>
+			
+			<label for="apel">Apellidos</label> 
+				<input type="text">
+			
+			<label id="apel" name="apellidos"><label><br>
+
+<!--DNI como si fuera contraseña obligando a tener una estructura de DNI-->
+			<label>DNI</label><input type="password">
+			<br>
+			<label>Descripción física</label>
+				 <input  name="desfis"></input>
+			<!--Se quiere que sea una entrada de texto de varias líneas-->
+			
+			</field >
+		</form>
+	</div>
+	
+	<div class="form02">
+	
+		<form>
+			<legend  class="tit"><b>Selección</b></legend>
+			<imput select name="clase">
+			<!--La primera opción debe salir por defecto y no poder elegirse más veces-->				
+			<label >¿En qué clase estas?</label>
+	
+	
+			<select>
+				<option>CMI1</option>
+				<option>CMI2</option>
+				<option>CSI1</option>
+				<option>CSI2</option>
+			</select></input><br>
+
+
+<!--Casilla de pulsar para verificar si esta conforme con nosotros, es obligatoria de contestar-->
+			<field><input type="checkbox"  name="verif">¿Esta Conforme?</field>
+			<br><br>
+			<button type="reset">Borrar</button>
+			<br>
+		</form>
+	</div>
+
+
+</html>

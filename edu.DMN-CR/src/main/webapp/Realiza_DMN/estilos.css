@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+h1{
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	color: white;
+}
+
+.ArribaPrin{
+	background-color: lightgreen;
+	
+}
+
+.imagenPrinc01{
+	height: 10rem;
+	margin-left: 2%;	
+}
+
+.imagenPrinc02{
+	
+	float: inline-end;
+	height: 10rem;	
+	margin-right: 2%;	
+}
+
+nav{
+	background-color: black;
+	height: 2rem;
+	
+}
+
+.textoFinal{
+	text-align: center;
+}
+
+
+.boton01{
+	border: solid 1px red;
+	margin-left: 12%;
+		background-color: black;
+		color: white;
+}
+
+.boton02{
+	border: solid 1px red;
+	float: inline-end;
+	margin-right: 12%;
+	background-color: black;
+	color: white;
+}
+
+.MenuNav{
+	border: solid 1px black;
+	margin-top: 1.5rem;
+	width: 200px;
+	
+}
+
+
+.ventaJamon{
+	background-color: lightgoldenrodyellow;
+}
+
+.jamonVenta{
+	background-color: gray;
+}
+
+
+
+
+.imaRed{
+	height: 100px;
+	width: 100%;
+}
+
+
+
+
+
+
+.imagenPrinCV{
+	border: solid 1px black;
+}
+
+.cuerpoCv{
+	background-color: lightgoldenrodyellow;
+	
+}
+
+.NombreCv{
+	text-align: center;
+	color: black;
+
+}
+.anoncV{
+	
+	margin-left: 40%;
+	height: 100px;
+	border-radius: 35rem;
+}
+
+
+
+h4{
+	color: blue;
+	text-align: center;
+
+}
+
+table{
+	border: solid 1px dodgerblue;
+}
+
+td {
+	border: solid 1px dodgerblue;
+}
+
+.cvDes{
+	color: red;
+	background-color: transparent;
+	margin-left: 40%;
+}
+
+
+
+
+
+
+
